@@ -1,0 +1,10 @@
+{
+    "report_summary": "Unable to preview tomorrow's match due to unavailable data.",
+    "markdown_report": "### Match Preview: Carlos Alcaraz vs. Arthur Fils\n\nAt present, there is no available data or information to provide a comprehensive preview of tomorrow's anticipated match between Carlos Alcaraz and Arthur Fils. We apologize for the inconvenience.\n\nAs an alternative, please ensure access to comprehensive background information on both players, including recent form, head-to-head statistics, analytical insights, and professional predictions for better accuracy.\n\nWe recommend checking closer to match time or using official tennis sources for real-time updates and insights.\n\nThank you for your understanding.",
+    "follow_up_questions": [
+        "Which tournament is the match taking place in?",
+        "Can you specify the current ranking of each player?",
+        "Are there specific statistics or recent matches you would like to highlight?"
+    ],
+    "verification": "verified=False issues='The report lacks content and does not provide key information, such as player statistics, performance history, or even basic details about the match. Additionally, it does not specify any sources for obtaining updates or detailed predictions. The placeholder nature of the text fails to serve the purpose of a match preview.'"
+}

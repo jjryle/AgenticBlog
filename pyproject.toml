@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"] # Specify minimum setuptools version
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agenticblog"
+version = "0.1.0"
+authors = [
+  { name="Your Name", email="you@example.com" }, # Update with your details
+]
+description = "A short description of your project."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" } # Use text key for license
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License", # Add specific license classifier
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "python-dotenv>=1.0.0", # Use >= for flexibility
+    "openai-agents",
+    # Add other dependencies here if needed
+]
+
+# Optional: Project URLs
+# [project.urls]
+# "Homepage" = "https://github.com/yourusername/agenticblog"
+# "Bug Tracker" = "https://github.com/yourusername/agenticblog/issues"
+
+# Optional: Entry points for scripts
+# [project.scripts]
+# your-script-name = "your_package.module:function_name"
+
+[tool.setuptools.packages.find]
+where = ["."]  # Look for packages in the current directory relative to pyproject.toml
+include = ["research_agent*"]  # Include the research_agent package and subpackages
+exclude = ["tests*"]  # Exclude tests directory
+
+# Optional: Tool-specific configurations (e.g., pytest)
+# [tool.pytest.ini_options]
+# minversion = "6.0"
+# addopts = "-ra -q"
+# testpaths = [
+#     "tests",
+# ]
